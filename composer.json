@@ -1,5 +1,5 @@
 {
-    "name": "kazbekkadalashvili/coinpaprika-api",
+    "name": "kazbekkadalashvili/coinpaprika-api-php",
     "description": "A PHP library for interacting with the Coinpaprika API.",
     "type": "library",
     "keywords": ["coinpaprika", "api", "wrapper"],
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CoinpaprikaAPI\\": "src/"
+            "Coinpaprika\\": "src/"
         }
     }
 }
