@@ -134,6 +134,10 @@ class CoinpaprikaAPI {
     }
 
     // coins endpoints
+    public function getCoins() {
+        return $this->get('coins');
+    }
+
     public function getCoinById($coin_id) {
         return $this->get('coins/' . $coin_id);
     }
