@@ -16,7 +16,7 @@ To use CoinpaprikaAPI, simply create a new instance of the CoinpaprikaAPI class 
 ```php
 <?php
 
-use CoinpaprikaAPI\CoinpaprikaAPI;
+use Coinpaprika\CoinpaprikaAPI;
 
 $coinpaprika = new CoinpaprikaAPI();
 
